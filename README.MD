@@ -7,10 +7,10 @@ A day planner that keeps track of task during your typical 8:00AM to 5:00pm work
 ![alt text](./assets/images/Capture.PNG)
 
 ## Website Link:
-* 
+* https://alu1868.github.io/Challenge-5-day-planner/
 
 ## Github Link:
-* 
+* https://github.com/alu1868/Challenge-5-day-planner
 
 ## Author:
 * https://github.com/alu1868
