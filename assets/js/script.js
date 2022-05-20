@@ -8,6 +8,29 @@ function displayDate() {
 // DISPLAY COLORS
 function colorBar() {
 
+    for (let i = 0; i < 10; i++ ) {
+        var textarea = document.getElementsByClassName("description")[i];
+        var timeBlock = document.getElementsByClassName("time-block")[i];
+        
+        var time = timeBlock.innerText;
+        var currentTime = moment().hour()
+        var difference = moment(time, "ha").diff(moment(currentTime, "ha"), "hours");
+
+
+        if (textarea.classList.contains("past present future")) {
+            textarea.classList.remove("past present future")
+        }
+        
+        
+        if (difference < 0) {
+            textarea.classList.add("past")
+        } else if (difference > 0) {
+            textarea.classList.add("future")
+        } else {
+            textarea.classList.add("present")
+        }
+    }
+
 }
 
 
@@ -116,3 +139,4 @@ function pullstorage() {
 // RUN FUNCTIONS
 displayDate();
 pullstorage();
+colorBar();
