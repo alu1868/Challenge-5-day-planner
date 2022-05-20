@@ -1,5 +1,26 @@
 # Day Planner
 
+## Description:
+A day planner that keeps track of task during your typical 8:00AM to 5:00pm working hours with local storage and time features.
+
+## Example Image: 
+![alt text](./assets/images/Capture.PNG)
+
+## Website Link:
+* 
+
+## Github Link:
+* 
+
+## Author:
+* https://github.com/alu1868
+
+## Credits:
+* HTML
+* CSS
+* JavaScript
+* BootStrap (https://getbootstrap.com/)
+
 ## User Story:
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
@@ -14,8 +35,8 @@ GIVEN I am using a daily planner to create a schedule
     WHEN I scroll down
     THEN I am presented with time blocks for standard business hours
 
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
+    WHEN I view the time blocks for that day
+    THEN each time block is color-coded to indicate whether it is in the past, present, or future
 
     WHEN I click into a time block
     THEN I can enter an event
